@@ -1,0 +1,18 @@
+{
+  "name": "clabe-checksum",
+  "version": "1.0.0",
+  "description": "Checksum for CLABE bank numbers",
+  "main": "bank_validation.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --ui tdd --reporter spec test/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.8.0"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  }
+}
